@@ -1,0 +1,57 @@
+#include <iostream>
+#include <vector>
+
+template<typename T>
+class Stack {
+private:
+    std::vector<T> data;
+
+public:
+    const std::vector<T>& elements = data;
+
+
+// Добавляет элемент на вершину стека
+    void push(const T& element) {
+        data.push_back(element);
+    }
+
+    // Удаляет и возвращает верхний элемент стека
+    T pop() {
+        if (data.empty()) {
+            std::cout << "Стек пустой!" << std::endl;
+            return T();
+        }
+        T element = data.back();
+        data.pop_back();
+        return element;
+    }
+
+    // Возвращает верхний элемент стека, не удаляя его
+    T top() {
+        if (data.empty()) {
+            std::cout << "Стек пустой!" << std::endl;
+            return T();
+        }
+        return data.back();
+    }
+
+    // Размер стека
+    int size() {
+        return data.size();
+    }
+
+    // Проверка пустоты стека
+    bool isEmpty() {
+        return data.empty();
+    }
+
+    // Реверсирует порядок элементов стека
+    void reverse() {
+//        Stack<T> tmp_stack;
+//        while (!isEmpty()) {
+//            tmp_stack.push(pop());
+//        }
+//        data = tmp_stack.data;
+        std::reverse(data.begin(), data.end());
+    }
+};

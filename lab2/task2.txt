@@ -1,0 +1,18 @@
+The Art of Computer Programming
+Concrete Mathematics
+The TeXbook
+Advanced Programming in the Unix Environment
+The C++ Programming Language
+Programming: Principles and Practice Using C++
+Linux Bible
+UNIX and Linux System Administration Handbook
+Clean Code
+Structure and Interpretation of Computer Programs
+The Linux Programming Interface
+Code Complete
+Mastering Embedded Linux Programming
+The Rust Programming Language
+Computer Networks: Principles, Technologies and Protocols for Network Design
+Java Programming
+The Kubernetes Book
+Cloud Native DevOps with Kubernetes
